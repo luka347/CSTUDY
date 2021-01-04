@@ -1,0 +1,57 @@
+*{
+    font-family: arial;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+}
+
+/* UNVISITED LINK*/
+
+a:link{
+    text-decoration: none;
+}
+
+/*HOVERED LINK*/
+a:hover{
+    color:orangered;
+}
+
+/*ACTIVE LINK */
+a:active{
+    color:green;
+}
+
+/*VISITED LINK*/
+a:visited{
+    color:purple;
+}
+
+
+
+/*CHECKED*/
+
+input[type="checkbox"]:checked{
+    outline:2px solid blue;
+}
+
+/*DISABLED*/
+input[type="text"]:disabled{
+    background-color: lightgray;
+}
+
+/*FOCUS*/
+#cool:focus{
+    background-color: aqua;
+}
+
+
+
+/* NTH CHILD*/
+p:nth-child(3){
+    color: green;
+    background-color: lightgreen;
+    width: 70px;
+}

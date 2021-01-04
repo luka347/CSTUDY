@@ -1,0 +1,48 @@
+
+
+h2{
+    font-family: arial;
+    text-align: center;
+}
+
+
+/*ATTRIBUTE SELECTOR*/
+
+input[type]{  
+    border: 2px solid orangered
+        
+}
+
+/*ATTRIBUTE VALUE*/
+
+input[type="text"]{
+    background-color: palegreen;
+}
+
+input[type="email"]{
+    background-color: aqua;
+}
+
+input[type="button"]{
+    border: 3px solid blue;
+    background-color: cadetblue;
+    color: cornsilk;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*ATTRIBUTE STARTS WITH*/
+
+p[title^="the"]{
+    color: darkmagenta;
+}
+
+/*ATTRIBUTE ENDS WITH*/
+p[title$="Future"]{
+    color: red;
+}
+
+/*ATTRIBUTE CONTAINS WORD*/
+p[title~="watching"]{
+    text-decoration: underline;
+}

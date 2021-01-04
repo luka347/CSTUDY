@@ -1,0 +1,23 @@
+*{
+font-family: arial;
+
+}
+
+
+p {
+    color: green;
+    font-weight: bold;
+    
+}
+
+#idselec {
+    color: orangered;
+    font-family: monospace;
+
+}
+
+.classSelec{
+    color: purple;
+    font-weight: 100;
+    font-size: 12px;
+}

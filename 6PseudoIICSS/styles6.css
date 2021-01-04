@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    font-weight: arial;
+    font-weight: bold;
+}
+
+.title{
+    text-align: center;
+}
+
+#paragraphId::first-letter{
+    color: lightgreen;
+    font-size: 70px;
+    text-shadow: 1px 1x 3px grey;
+}
+
+#paragraphId::first-line{
+    color: blue;
+}
+
+::selection{
+    color: crimson;
+    background-color: cyan;
+}
+
+.plus::after{
+    content: " +";
+}
+.plus::before{
+    content: "- ";
+}

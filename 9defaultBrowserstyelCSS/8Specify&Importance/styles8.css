@@ -1,0 +1,24 @@
+*{
+    font-weight: bold;
+    font-family: arial;
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+}
+
+/* ID > class > ELEMENT - UNLESS HAS A STATUS OF !IMPORTANCE*/
+
+#bodyId{
+    background-color: orange;
+}
+
+.bodyclass{
+    background-color: blue;
+}
+
+body{
+    background-color: red !important;
+}
+
+

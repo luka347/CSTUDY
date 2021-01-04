@@ -1,0 +1,37 @@
+*{
+    font-family: arial;
+}
+
+h2{
+    text-align: center;
+}
+
+/* SELECT MULTI ELEMENTS BY SEPARATING THEM WITH COMMA*/
+
+/*p, button{
+ color:red;
+}*/
+
+
+/*SELECTS ALL INSIDE OF DESCENDANT*/
+#outerDiv p {
+    color: darkmagenta;
+}
+
+/*SELECTS ALL INSIDE PARENT (DIRECT DESCENDANT)*/
+
+#innerDiv > p{
+    color: blue;
+}
+
+
+/*SELECTS ALL ELEMENTS PLACED IMMEDIATeLY AFTER AN ELEMENT*/
+h3 + p{
+    color: fuchsia;
+    text-decoration: underline;
+}
+
+/*SELECTS ALL ELEMENTS PLACED IMMEDIATELY BEFORE AN ELEMENT*/
+p ~ h4{
+    color:red;
+}

@@ -1,0 +1,20 @@
+
+/*h2 {
+    color : orange;
+    font-size: 30px;
+    border: 1px solid green;
+    background-color: skyblue;
+}*/
+
+h2 {
+    color: blue;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 50px;
+    color: purple;
+    text-shadow: 3px 3px 1px grey;
+}
+
+/*Comment*/

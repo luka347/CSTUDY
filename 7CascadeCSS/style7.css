@@ -1,0 +1,17 @@
+*{
+    font-family: arial;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+}
+
+p{
+    color: blue;
+}
+
+p{
+    color: red;
+}

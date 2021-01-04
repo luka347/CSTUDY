@@ -1,0 +1,75 @@
+*{
+    font-family: arial;
+    font-weight: bold;
+    box-sizing: border-box;
+    
+}
+
+.title{
+    text-align: center;
+}
+
+div{
+
+   
+
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: red;
+    position: relative;
+
+    /*-name: square;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state:running;*/
+
+    animation: square 4s linear 2s infinite alternate backwards running;
+}
+
+@keyframes square{
+   0%{
+       background-color: red;
+       top: 0px;
+       left: 0px;
+
+   }
+
+   35%{
+       background-color: yellow;
+       top:0px;
+       left:630px;
+       
+   }
+
+   50%{
+       background-color: purple;
+       left:630px;
+       top:400px;
+       
+   }
+
+   75%{
+       background: blue;
+       left: 0px;
+       top : 400px;
+       border-radius:50%;
+      
+   }
+   100%{
+       background-color: crimson;
+       left: 0px;
+       top:0px;
+       
+
+   }
+
+   
+
+   
+}
+
